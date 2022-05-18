@@ -9,9 +9,9 @@ const Appoinment = () => {
     return (
         <div style={{
             background: `url(${appoinment})`
-        }} className="lg:flex md:block justify-center items-center lg:px-20 lg:h-[490px] p-5">
+        }} className="lg:flex md:block justify-center items-center lg:px-20 lg:h-[429px] p-5">
             <div className="flex-1">
-                <img className="lg:mt-[-20%] lg:flex md:block hidden" src={doctor} />
+                <img className="lg:mt-[-20%] lg:flex md:block hidden" src={doctor} alt='appoinment' />
                 </div>
                 <div className='flex-1'>
                     <h4 className='text-secondary text-xl font-bold mb-5'>Appoinment</h4>

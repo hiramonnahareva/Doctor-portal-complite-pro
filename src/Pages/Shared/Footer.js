@@ -6,23 +6,22 @@ const Footer = () => {
     return (
         <footer style={{
             background: (`url(${footer})`),
-            // backgroundSize: 'cover'
             backgroundSize: 'Cover',
-        }} className=" p-10">
+        }} className=" py-5 px-10 mt-16">
             <div className='footer text-xl'>
                 <div>
                     <span className="footer-title">Services</span>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
+                    <a className="link link-hover" href='#ska'>Branding</a>
+                    <a className="link link-hover" href='#ska'>Design</a>
+                    <a className="link link-hover" href='#ska'>Marketing</a>
+                    <a className="link link-hover" href='#ska'>Advertisement</a>
                 </div>
                 <div>
-                    <span className="footer-title">Company</span>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <span className="footer-title" href='#ska'>Company</span>
+                    <a className="link link-hover" href='#ska'>About us</a>
+                    <a className="link link-hover" href='#ska'>Contact</a>
+                    <a className="link link-hover" href='#ska'>Jobs</a>
+                    <a className="link link-hover" href='#ska'>Press kit</a>
                 </div>
                 <div>
                     <span className="footer-title">Legal</span>
@@ -31,7 +30,7 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </div>
             </div>
-            <div className='text-center py-5'>
+            <div className='text-center pt-10'>
                 <p>Copyright © {date} - All right reserved</p>
             </div>
         </footer>
